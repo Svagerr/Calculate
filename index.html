@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Калькулятор</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="stylesLess.css" />
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.js"></script>-->
+    <script src="init.js" defer></script>
+</head>
+<body>
+    <div class="calculate">
+        <div class="title">Calculate</div>
+        <div class="display">
+            <input type="text" class="display__pole" id="display" disabled>
+        </div>
+        <div class="keypad">
+            <div class="numbers_and_signs">
+                <button class="button" data-type="7" >7</button>
+                <button class="button" data-type="8" >8</button>
+                <button class="button" data-type="9" >9</button>
+                <button class="button signs" data-type="/" >&divide;</button>
+                <button class="button" data-type="4" >4</button>
+                <button class="button" data-type="5" >5</button>
+                <button class="button" data-type="6" >6</button>
+                <button class="button signs" data-type="*" >&times;</button>
+                <button class="button" data-type="1" >1</button>
+                <button class="button" data-type="2" >2</button>
+                <button class="button" data-type="3" >3</button>
+                <button class="button signs" data-type="-">&minus;</button>
+                <button class="button" data-type="0">0</button>
+                <button class="button" data-type="." id="dotter">.</button>
+                <button class="button rez" data-type="=">=</button>
+                <button class="button signs" data-type="+">&plus;</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="clear">
+                <button class="button button_cleaning" data-type="C">C</button>
+                <button class="button button_cleaning" data-type="CE">CE</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

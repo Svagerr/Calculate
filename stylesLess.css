@@ -1,0 +1,78 @@
+body {
+    background-color: lemonchiffon;
+}
+.calculate {
+    width: 200px;
+    height: 330px;
+    margin: auto;
+    border-radius: 10px;
+}
+.title {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: #10141d;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+.display {
+    width: 200px;
+    height: 50px;
+    background:#0d111a;
+}
+.display__pole{
+    border: none;
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    background:#0d111a;
+    font-size: 20px;
+    color: white;
+    text-align: right;  
+}
+.keypad {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-color: aqua;
+}
+.footer {
+    width: 200px;
+    height: 50px;
+}
+.button {
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: #10141d;
+    margin: 0px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.button_cleaning {
+    width: 100px;
+    height: 50px;
+    background-color: #181c25;
+}
+.signs{
+    background: radial-gradient(ellipse at center, #171b24 34%, #171b24 60%, #10141d 62%, #10141d 64%)
+}
+.rez{
+    background: radial-gradient(ellipse at center, #f12528 34%, #f12528 60%, #10141d 62%, #10141d 64%);
+}
+.button:hover {
+    background: radial-gradient(ellipse at center, #4E10E0 34%, #4E10E0 60%, #10141d 62%, #10141d 64%);
+    color: #fff;
+}
+.button_cleaning:hover {
+    background: #4E10E0;
+    color: #fff;
+}
+.rez:hover {
+    background: radial-gradient(ellipse at center, #FAFA16 34%, #FAFA16 60%, #10141d 62%, #10141d 64%);
+    color: #000;
+}
